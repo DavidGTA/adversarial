@@ -11,7 +11,7 @@
 ## 安装
 ```bash
 git clone https://github.com/yourusername/modern-gan
-cd modern-gan
+cd new_adversarial
 pip install -r requirements.txt
 ```
 
