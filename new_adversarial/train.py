@@ -48,7 +48,7 @@ def main():
             transforms.ToTensor(),         # 将图像转换为PyTorch张量
             transforms.Normalize((0.5,), (0.5,))  # 对数据进行标准化
         ])
-        dataset = datasets.MNIST('./data', train=True, download=True, transform=transform)
+        dataset = datasets.MNIST('./data', train=True, transform=transform)
     
     # 创建模型
     generator = Generator(
